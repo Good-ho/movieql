@@ -1,6 +1,12 @@
+const ho = {
+  name: "hyunho",
+  age: 20,
+  gender: "male",
+};
+
 const resolvers = {
   Query: {
-    name: () => "graphql query test!",
+    person: () => ho,
   },
 };
 
